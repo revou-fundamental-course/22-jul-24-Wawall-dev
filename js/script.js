@@ -1,2 +1,3 @@
 //Ini Javascript
-prompt()
+
+
