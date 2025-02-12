@@ -1,1 +1,140 @@
 /*Ini css*/
+.all-background{
+    background-color: lightgray;
+    
+}
+
+.background-main{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    max-width: fit-content;
+    background-origin: padding-box;
+    padding-left: auto;
+    padding-right: auto;
+    padding-top: auto;
+    padding-bottom: auto;
+}
+
+nav {
+    
+    display: flex;
+    justify-content: space-between;
+    padding: 12px;
+    align-items: center;
+}
+
+.logo-icon{
+    
+    background-image: url(https://picsum.photos/200);
+    height: 25px;
+    width: 50px;
+    background-size: cover;
+}
+
+.nav-container {
+    display: flex;
+    
+}
+
+.nav-item {
+    border: 1px solid;
+    padding: 8px;
+}
+
+.bording{
+    border-width: thin;
+}
+
+.main-title{
+    text-align: center;
+}
+
+.main-content{
+    display: flex;
+}
+
+.main-content-item-1{
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main-content-item-2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: lightgray;
+    margin-right: 150px;
+    border-radius: 3px;
+}
+
+.main-content-banner{
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+    background-image: url(https://i.pinimg.com/736x/58/22/ee/5822ee09f83313815576a57c58f9f5ba.jpg);
+    margin-left: 20%;
+}
+
+.quotes{
+    width: 75%;
+    display: flex;
+    padding-left: 20%;
+}
+
+.item-icon{
+    height: 25px;
+    width: 25px;
+    
+    background-image: url(https://picsum.photos/25);
+    border-radius: 50%;
+}
+
+.main-item{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+input{
+    width: 75%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 2px solid black;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-family: monospace;
+}
+
+button{
+    width: 75%;
+    height: 32px;
+    background-color: gray;
+    border: none;
+}
+
+Form{
+    text-align: left;
+}
+
+.benefit{
+    margin-left: 12%;
+}
+
+.main-benefit{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: red;
+    width: 25%;
+}
+
+.middle{
+    text-align: center;
+    padding-top: 45px;
+    padding-bottom: 45px;
+    
+}
